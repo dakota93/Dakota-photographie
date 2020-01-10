@@ -1,0 +1,32 @@
+nav {
+ 
+    height: 70px;
+    padding: 15px;
+    border-bottom: 8px solid #FFF;
+    text-align: center;
+    border: none;
+}
+nav a {
+    margin: 10px;
+    padding:2px 10px;
+    border-radius: 10px 0px;
+    border: 2px solid #fff;
+    background: black;
+
+    font-family: 'oswald', sans-serif, 'anton', sans-serif, 'lemonada', cursive;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.5s;
+    border: none;
+}
+
+nav a:hover {
+    background: grey;
+    color: #fff;
+    border: none;
+}
+.active{
+    background: #2c3e50;
+    color: #fff;
+}
