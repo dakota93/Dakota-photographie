@@ -1,0 +1,141 @@
+/* feuille grille responsive css */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background:black;
+}
+
+.conteneur{
+    width: 1200px;
+    
+    margin: 0 auto;
+    
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.col-1{ width: 8.3333333%;}
+.col-2{width: 16.66666%;}
+.col-3{width: 25%;}
+.col-4{width: 33.333333%;}
+.col-5{width: 41.666666%;}
+.col-6{width: 50%;}
+.col-7{width: 58.333333%;}
+.col-8{width: 66.666666%;}
+.col-9{width: 75%;}
+.col-10{width: 83.3333333%;}
+.col-11{width: 91.666666%;}
+.col-12{width: 100%;}
+
+.marge-1{margin-left:8.333333%; }
+.marge-2{margin-left:16.666666%; }
+.marge-3{margin-left:25%; }
+.marge-4{margin-left:33.333333%; }
+.marge-5{margin-left: 41.666666%;}
+.marge-6{margin-left:50%; }
+.marge-7{margin-left:58.333333%; }
+.marge-8{margin-left: 66.666666%;}
+.marge-9{margin-left:75%; }
+.marge-10{margin-left:83.3333333%; }
+.marge-11{margin-left: 91.666666%;}
+
+/********************* média queries pour les ecran *********************************************/
+
+
+/************************ telepbone mobile mobile ex:iphone5 *************************/
+
+@media(max-width: 320px){
+    body{
+        background: #fff;
+    }
+        .conteneur{
+            width: 100%;
+            background: #fff;
+            margin-left: auto;
+            border: none;
+            margin-right: auto;
+        }
+        h1{
+            font-size: 120%;
+            text-align: left;
+            padding-left: 5px;
+        }
+}
+
+/********************* petite tablette *************************/
+
+@media (min-width:321px) and (max-width: 767px){
+    body{
+        background: #b18b45;
+      
+    }
+    .conteneur{
+        width: 100%;
+        background: #fff;
+        margin-right: auto;
+        margin-left: auto;
+        border: none;
+    }
+}
+
+/***************************** tablette et ordinateur portable *****************************/
+
+@media (min-width:768px) and (max-width:1096){
+    body{
+        background: #2e20e7;
+    }
+     .conteneur{
+        width: 100%;
+        background: #fff;
+        margin-right: auto;
+        margin-left: auto;  
+    }
+}
+
+/*****************************ecran ordinateur de bureau*************************************************/
+
+@media (min-width:1097px){
+  
+     .conteneur{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+/************************* couleur generique  ******************************************************/
+.bleu{background: rgb(110, 110, 235);min-height: 60px; color: mintcream;padding: 5px;}
+.rouge{background: rgb(8, 8, 8);min-height: 60px;}
+.vert{background: rgb(8, 8, 8);min-height: 60px;}
+.jaune{background: gold;min-height: 60px;}
+/* trois colonne égales cotes a cotes */
+
+
+header{
+    text-align: center;
+}
+
+footer{
+    background: black;
+    padding: 10px;
+}
+
+p{
+    font-size: 20px;
+    
+}

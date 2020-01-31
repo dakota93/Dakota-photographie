@@ -6,13 +6,19 @@ body{
 header{
     text-align: center;
 }
+
+
+
+/***************************navigation*****************************************************/
 nav {
  
-    height: 70px;
+    height: 50px;
     padding: 15px;
     border-bottom: 8px solid #FFF;
     text-align: center;
     border: none;
+    background: #e0e0e0;
+    
 }
 nav a {
     margin: 10px;
@@ -26,7 +32,7 @@ nav a {
     text-decoration: none;
     font-size: 16px;
     transition: 0.5s;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 nav a:hover {
@@ -53,3 +59,14 @@ nav a:hover {
     text-align: center;
     margin: 0 auto;
 }
+
+
+/**************************img**************************************/
+
+section img{
+    height: 400px;
+    margin: 20px;  
+} 
+
+
+
